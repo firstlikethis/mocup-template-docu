@@ -1,0 +1,1420 @@
+
+/**
+  !@ Author :: Chakkria
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11px;
+
+}
+
+.container {
+  margin: 0px;
+  /* border: 1px solid red; */
+  width: auto;
+  height: auto;
+  padding-top: 27px;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:47px;
+}
+
+.group-img {
+  padding-left: 37%;
+}
+
+/** BARCODE*/
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0px;
+}
+
+#garuda {
+  width: 80px;
+  padding-right: 10px;
+}
+
+#stdLoan {
+  width: 100px;
+}
+
+#bcode {
+  width: 145px;
+  height: 50px;
+}
+
+#bcode1 {
+  width: 145px;
+  height: 17px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Head text */
+.head-text {
+  padding-top: 1cm;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+}
+
+/* span#span-h-sec1 {
+  background-color: rgba(0, 255, 255, 0.501);
+}
+
+span#span-h-sec3 {
+  background-color: rgba(0, 255, 255, 0.501);
+} */
+
+.head-sec1,
+.head-sec2,
+.head-sec3 {
+  margin: -10px;
+}
+
+.body-head {
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.body-head-1 {
+  padding-top: 24px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+span#level {
+  margin-left: auto;
+  padding-right: 35px;
+}
+
+.body-head-2 {
+  padding-top: 15px;
+}
+
+p#children-des {
+  /* padding-top: 10px; */
+  padding-left: 75px;
+  margin-top: 8px;
+}
+
+#content-1,
+#sub-body-content{
+  padding-left: 75px;
+}
+
+
+#children-des,
+#content-1,
+#sub-body-content {
+  margin: 18px;
+}
+
+#sub-body-content{
+  margin-top:8px;
+  /* border: 1px solid red; */
+}
+
+
+.body-content-1,
+.body-content-2,
+.body-content-3,
+.body-content-4,
+.body-content-5,
+.body-content-7{
+  padding-top: 6px;
+}
+
+
+
+#bot-content {
+  /* margin-left: 20px; */
+  letter-spacing: 0.1px;
+  margin-top:1rem;
+  padding-top: 15px;
+  /* border: 1px solid red; */
+}
+
+#footer-content{
+  margin-left: 94px;
+  letter-spacing: 0.1px;
+  /* padding-top: 12px; */
+  /* border: 1px solid red; */
+}
+
+#footer-content-1{
+  margin-left: 94px;
+  width: 578px;
+  letter-spacing: -0.05rem;
+  padding-top: 10px;
+  margin-bottom: 6px;
+  /* border: 1px solid red; */
+}
+
+div.body-content-7{
+  width: 665px;
+  letter-spacing: 0.029rem;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+div.detail-footer{
+  width: 665px;
+  letter-spacing: 0.03rem;
+  line-height: 24px;
+}
+
+div.body-content-8{
+  width: 665px;
+  letter-spacing: 0.01rem;
+  line-height: 24px;
+  padding-top: 4px;
+}
+
+/* 
+#footer-content-2 {
+  line-height: 9px;
+  letter-spacing: 0.06rem;
+}
+
+#footer-content-3 {
+  line-height: 9px;
+  letter-spacing: 0.08rem;
+}
+
+#footer-content-4 {
+  line-height: 9px;
+  letter-spacing: 0.002rem;
+}
+
+#footer-content-5 {
+  line-height: 9px;
+  letter-spacing: 0.03rem;
+}
+
+#footer-content-6 {
+  line-height: 9px;
+  letter-spacing: 0.04rem;
+} */
+
+#bot-content,
+#bot-content-1,
+#bot-content-2{
+  line-height: 12px;
+}
+
+#bot-content-1,
+#bot-content-2{
+  letter-spacing: -0.1px;
+}
+
+.footer-contents{
+  line-height: 1px;
+}
+
+/**
+  dots-line
+*/
+span#contract {
+  width: 220px;
+  /* border: 1px solid red; */
+}
+
+span.dottedUnderline1 {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span#level{
+  /* border: 1px solid red; */
+  width: 150px;
+}
+
+span.dottedUnderline2 {
+  display: inline-block;
+  width: 115px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+span#startDate{
+  /* border: 1px solid red; */
+  width: 150px;
+}
+
+span.dottedUnderline3 {
+  display: inline-block;
+  width: 25px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+span.dottedUnderline4 {
+  display: inline-block;
+  width: 65px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline5 {
+  display: inline-block;
+  width: 30px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline6 {
+  display: inline-block;
+  text-align: center;
+  width:150px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline7 {
+  display: inline-block;
+  text-align: center;
+  width:105px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline8 {
+  display: inline-block;
+  text-align: center;
+  width:60px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline9 {
+  display: inline-block;
+  text-align: center;
+  width:330px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline10 {
+  display: inline-block;
+  text-align: center;
+  width:161px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline11 {
+  display: inline-block;
+  text-align: center;
+  width:26px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline12 {
+  display: inline-block;
+  text-align: center;
+  width:70px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline13 {
+  display: inline-block;
+  text-align: center;
+  width:40px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline14 {
+  display: inline-block;
+  text-align: center;
+  width:54px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline15 {
+  display: inline-block;
+  text-align: center;
+  width:65px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline16 {
+  display: inline-block;
+  text-align: center;
+  width:110px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline17 {
+  display: inline-block;
+  text-align: center;
+  width:108px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline18 {
+  display: inline-block;
+  text-align: center;
+  width:149px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline19 {
+  display: inline-block;
+  text-align: center;
+  width:97px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline20 {
+  display: inline-block;
+  text-align: center;
+  width:121px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline21 {
+  display: inline-block;
+  text-align: center;
+  width:121px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline22 {
+  display: inline-block;
+  text-align: center;
+  width:83px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline23 {
+  display: inline-block;
+  text-align: center;
+  width:85px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline24 {
+  display: inline-block;
+  text-align: center;
+  width:85px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline25 {
+  display: inline-block;
+  text-align: center;
+  width:197px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline26 {
+  display: inline-block;
+  text-align: center;
+  width:350px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline27 {
+  display: inline-block;
+  text-align: center;
+  width:157px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline28 {
+  display: inline-block;
+  text-align: center;
+  width:59px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline29 {
+  display: inline-block;
+  text-align: center;
+  width:100px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline30 {
+  display: inline-block;
+  text-align: center;
+  width:103px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline31 {
+  display: inline-block;
+  text-align: center;
+  width:109px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline32 {
+  display: inline-block;
+  text-align: center;
+  width:143px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline33 {
+  display: inline-block;
+  text-align: center;
+  width:157px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline34 {
+  display: inline-block;
+  text-align: center;
+  width:190px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline35 {
+  display: inline-block;
+  text-align: center;
+  width:184px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline36 {
+  display: inline-block;
+  text-align: center;
+  width:117px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline37 {
+  display: inline-block;
+  text-align: center;
+  width:330px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline38 {
+  display: inline-block;
+  text-align: center;
+  width:140px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+/**
+!End dots line
+*/
+
+
+
+
+
+
+/***
+  !@ Start page 2
+**/
+
+
+.page2-head{
+  padding-top: 85px;
+}
+
+.table-class{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1cm;
+}
+
+#tbpaid-page2 {
+  border-collapse: collapse;
+  width: 500px;
+  border: 1px solid black;
+}
+
+#thpaid-page2, #tdpaid-page2 {
+  border: 1px solid black;
+  padding: 8px;
+  font-weight: 100;
+}
+
+#thpaid-page2 {
+  background-color: #fff;
+}
+
+#thpaid-page2:first-child {
+  width: 100px;
+}
+
+#thpaid-page2:nth-child(2), #tdpaid-page2:nth-child(2) {
+  width: 300px;
+}
+
+/** text head*/
+div.page2-ch2{
+  padding-left: 45px;
+}
+
+p#p2h-bcontent,
+p#p2h-fcontent{
+  padding-left: 15px;
+}
+
+#p2h-fcontent{
+  margin-top: 5px;
+}
+
+p#c2-content{
+  padding-top: 10px;
+  padding-left: 47px;
+}
+
+.indent {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indent-2 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indent-3 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indent-4 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+p#f-content{
+  font-weight: 600;
+  font-size: medium;
+}
+
+
+
+
+
+span.dottedUnderline39 {
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline40 {
+  display: inline-block;
+  text-align: center;
+  width:64%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline41 {
+  display: inline-block;
+  text-align: center;
+  width:24%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline42 {
+  display: inline-block;
+  text-align: center;
+  width:30%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline43 {
+  display: inline-block;
+  text-align: center;
+  width:26%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline44 {
+  display: inline-block;
+  text-align: center;
+  width:25%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline45 {
+  display: inline-block;
+  text-align: center;
+  width:22%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+/***
+  !@ End page 2
+**/
+
+
+
+/**
+  !@ START PAGE 3
+**/
+
+.page3-head{
+  padding-top: 85px;
+}
+
+/** text head*/
+div.page3-ch3{
+  padding-left: 45px;
+}
+
+
+.indents {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indents-2 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indents-3 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indents-4 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indents-5 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.indents-6 {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+p#m-content{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.indents-7 {
+  /* padding-top: 5px; */
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+  margin-top: 1px;
+}
+
+
+/**
+  !@ END PAGE 3
+**/
+
+
+/**
+  !@ START PAGE 4
+**/
+
+.page4-head{
+  padding-top: 85px;
+}
+
+/** text head*/
+div.page4-ch4{
+  padding-left: 45px;
+}
+
+
+p#p4-content{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.p4indents{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+}
+
+.p4indents-2,
+.p4indents-3,
+.p4indents-4 {
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+/** START CHECKBOX*/
+
+.checkbox-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checkbox-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-list input[type="checkbox"] {
+  margin-right: 5px;
+  width: 20px; /* Adjust the width of the checkbox */
+  height: 20px; /* Adjust the height of the checkbox */
+}
+div.paid-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input#option4{
+  margin-left: 50px;
+}
+
+
+/** END CHECKBOX */
+
+.p4indents-5{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p4indents-6,
+.p4indents-7,
+.p4indents-8,
+.p4indents-9   {
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+/**
+  !@ END PAGE 4
+**/
+
+
+
+/** 
+  !@ Start page 5
+**/
+
+.page5-head{
+  padding-top: 85px;
+}
+
+/** text head*/
+div.page5-ch5{
+  padding-left: 45px;
+}
+
+
+.p5indents{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+}
+
+.p5indents-2{
+  padding-top: 10px;
+}
+
+
+.p5indents-3{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+}
+
+.p5indents-2{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p5indents-4 {
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+}
+
+.p5indents-5{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+
+/** Start Table 1**/
+
+.table-class5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+
+#table5 {
+  border-collapse: collapse;
+  width: 700px;
+  border: 1px solid black;
+
+}
+
+#table5-page5 {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#table5-page5 td,
+#table5-page5 th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  line-height: 10px;
+}
+
+#table5-page5 th#thead-page5 {
+  padding: 8px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+#table5-page5 th#thead-page5:first-child {
+  border-right: 1px solid black;
+  height: 15px;
+}
+
+#table5-page5 th#thead-page5:nth-child(1) {
+  border-left: 1px solid black;
+}
+
+td#tableWording{
+  padding: 6px;
+  font-size: 12px;
+}
+td#tableWording p {
+  margin: 5px; /* Remove margin of the <p> element inside the <td> */
+}
+
+th#thead-page5{
+  height: 15px;
+}
+
+
+
+/*** End Table 1 **/
+
+
+/*** Start Table 2 **/
+.table-class5ch2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  margin-right: 45px;
+}
+
+
+#table5-pg5ch2 {
+  font-size: 12px;
+  width: 900px;
+  border-collapse: collapse;
+}
+
+#table5-pg5ch2 th,
+#table5-pg5ch2 td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+#thead-pg5ch2,
+th#thead-pg5ch2 {
+  background-color: #ffff;
+  font-weight: 100;
+}
+#table5-pg5ch2 td {
+  vertical-align: baseline;
+}
+
+td#twP5ch2{
+  margin: 5px;
+  padding: 5px;
+}
+
+/*** End Table 2 **/
+
+
+/** ย่อแบบ (1) **/
+.p5indents-6{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.07rem;
+  line-height: 21px;
+  text-indent: 2cm;
+}
+
+/** 
+  !@ End page 5
+**/
+
+
+
+
+/**
+  !@ Start Page 6
+**/
+
+.page6-head{
+  padding-top: 85px;
+}
+
+/** text head*/
+div.page6-ch6{
+  padding-left: 45px;
+}
+
+.p6indents{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+}
+
+.p6indents-2{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.02rem;
+  line-height: 21px;
+  text-indent: 3cm;
+}
+
+.p6indents-3{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.07rem;
+  line-height: 21px;
+  text-indent: 2cm;
+}
+
+.p6indents-4{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 2.5cm;
+}
+
+.p6indents-5{  
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.03rem;
+  line-height: 21px;
+  text-indent: 2.5cm;
+}
+
+.p6indents-6{  
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.03rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p6indents-7{  
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 2.5cm;
+}
+
+/**
+  !@ End Page 6
+**/
+
+
+
+
+/**
+  !@ Start Page 7
+**/
+
+.page7-head{
+  padding-top: 3.67cm;
+}
+
+/** text head*/
+div.page7-ch7{
+  padding-left: 45px;
+}
+
+.p7indents{
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-2{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-3{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-4{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-5{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-6{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.05rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+.p7indents-7{
+  padding-top: 10px;
+  width: 626px;
+  letter-spacing: 0.07rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+/**
+  !@ End Page 7
+**/
+
+
+
+/**
+  !@ Start Page 8
+**/
+
+.page8-head{
+  padding-top: 85px;
+}
+
+/** text head*/
+div.page8-ch8{
+  padding-left: 45px;
+}
+
+div.p8signg{
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+div.p8sig{
+  max-width: 794px; /* A4 width (210mm) - 2 * padding (30mm) */
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.box1 {
+  position: relative;
+  width: 210px;
+  height: 40px;
+  font-size: 12px;
+  right: 20px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid red; */
+}
+
+.box2 {
+  left:20px;
+  position: relative;
+  width: 310px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid red; */
+}
+.box3 {
+  grid-column: 2;
+  left:20px;
+  position: relative;
+  width: 310px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid red; */
+}
+
+.box4{
+  position: relative;
+  width: 210px;
+  height: 40px;
+  font-size: 12px;
+  right: 20px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid red; */
+}
+
+.box5{
+  left:20px;
+  position: relative;
+  width: 310px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid red; */
+}
+
+.p8indents{
+  width: 626px;
+  letter-spacing: 0.04rem;
+  line-height: 21px;
+  text-indent: 38px;
+}
+
+
+div.intoBox{
+  width: 100%;
+}
+
+div.intoBox2{
+  width: 100%;
+  padding-left: 20px;
+}
+
+
+span.dottedUnderline46,
+span.dottedUnderline47 {
+  display: inline-block;
+  text-align: center;
+  width:65%;
+  padding: 15px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+
+span.dottedUnderline48,
+span.dottedUnderline49{
+  display: inline-block;
+  text-align: center;
+  width:40%;
+  padding: 15px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+
+span.dottedUnderline50,
+span.dottedUnderline51{
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  width:40%;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+
+span.dottedUnderline52,
+span.dottedUnderline53{
+  display: inline-block;
+  text-align: center;
+  width:65%;
+  padding: 15px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+span.dottedUnderline54,
+span.dottedUnderline55 {
+  display: inline-block;
+  text-align: center;
+  width:40%;
+  padding: 15px;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.1em;
+  box-sizing: border-box;
+}
+
+/**
+  !@ End Page 8
+**/
